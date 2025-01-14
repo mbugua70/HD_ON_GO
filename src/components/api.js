@@ -49,7 +49,7 @@ export async function fleetForm(test) {
 
 
 
-  const res = await fetch("https://brandyolk.iguru.co.ke/process/BM.php", {
+  const res = await fetch("https://iguru.co.ke/skope_api/BM.php", {
 
     method: "POST",
     body: formData,
@@ -57,8 +57,8 @@ export async function fleetForm(test) {
 
   // const data = await res.json();
   if (res.ok) {
-    const data = await res.text(); // Read the response as plain text
-    console.log("HTML Response:", data);
+    const data = await res.text();
+
     return data
 
   }else{
@@ -97,7 +97,7 @@ export async function ongoSummaryForm(test) {
 
 
 
-  const res = await fetch("https://brandyolk.iguru.co.ke/process/BM.php", {
+  const res = await fetch("https://iguru.co.ke/skope_api/BM.php", {
 
     method: "POST",
     body: formData,
@@ -106,7 +106,6 @@ export async function ongoSummaryForm(test) {
   // const data = await res.json();
   if (res.ok) {
     const data = await res.text(); // Read the response as plain text
-    console.log("HTML Response:", data);
     return data
 
   }else{

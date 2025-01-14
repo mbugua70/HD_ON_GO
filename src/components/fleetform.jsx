@@ -24,6 +24,58 @@ const FleetForm = () => {
       sub_1_9: "",
       sub_1_10: "",
       sub_1_11: "",
+      sub_1_12: "",
+      sub_1_13: "",
+      sub_1_14: "",
+      sub_1_15: "",
+      sub_1_16: "",
+      sub_1_17: "",
+      sub_1_18: "",
+      sub_1_19: "",
+      sub_1_20: "",
+      sub_1_21: "",
+      sub_1_22: "",
+      sub_1_23: "",
+      sub_1_24: "",
+      sub_1_25: "",
+      sub_1_26: "",
+      sub_1_27: "",
+      sub_1_28: "",
+      sub_1_29: "",
+      sub_1_30: "",
+      sub_1_31: "",
+      sub_1_32: "",
+      sub_1_33: "",
+      sub_1_34: "",
+      sub_1_35: "",
+      sub_1_36: "",
+      sub_1_37: "",
+      sub_1_38: "",
+      sub_1_39: "",
+      sub_1_40: "",
+      sub_1_41: "",
+      sub_1_42: "",
+      sub_1_43: "",
+      sub_1_44: "",
+      sub_1_45: "",
+      sub_1_46: "",
+      sub_1_47: "",
+      sub_1_48: "",
+      sub_1_49: "",
+      sub_1_50: "",
+      sub_1_51: "",
+      sub_1_52: "",
+      sub_1_53: "",
+      sub_1_54: "",
+      sub_1_55: "",
+      sub_1_56: "",
+      sub_1_57: "",
+      sub_1_58: "",
+      sub_1_59: "",
+      sub_1_60: "",
+      sub_1_61: "",
+      sub_1_62: "",
+      sub_1_63: "",
     },
   });
 
@@ -374,7 +426,7 @@ const FleetForm = () => {
 <div className="input-field col s12">
   <span>5. Next Service Due Date </span>
   <br />
-  <input id="sub_1_39" name="sub_1_39" placeholder="Next Service Due Date" type="text"  {...register("sub_1_39")}/>
+  <input id="sub_1_39" name="sub_1_39" placeholder="Next Service Due Date" type="date"  {...register("sub_1_39")}/>
 </div>
 
 <h1>Spare Parts Information</h1>
@@ -443,7 +495,7 @@ const FleetForm = () => {
             <div className="input-field col s12">
               <span>2. Date of Warranty Activation</span>
               <br />
-              <input id="sub_1_48" name="sub_1_48" placeholder="Date of Warranty Activation" type="text"  {...register("sub_1_48")}/>
+              <input id="sub_1_48" name="sub_1_48" placeholder="Date of Warranty Activation" type="date"  {...register("sub_1_48")}/>
             </div>
 
             <div className="input-field col s12">
