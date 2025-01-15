@@ -90,7 +90,7 @@ export async function ongoSummaryForm(test) {
     }
   }
 
-      formData.append("place", "HD_ON_GO");
+      formData.append("place", "ON_GO_SUMMARY");
       formData.append("ba_name", nameEl);
       formData.append("ba_phone", PhoneEl);
       formData.append("ba_region", locationsEl);
